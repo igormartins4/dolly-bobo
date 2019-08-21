@@ -1,0 +1,30 @@
+{
+  "name": "dolly-bobo",
+  "version": "1.0.0",
+  "description": "Bot do twitter para lembrar que o Dolly (vulgo Vinícius Gabriel) é bobo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igormartins4/dolly-bobo.git"
+  },
+  "keywords": [
+    "twitter-api",
+    "javascript",
+    "nodejs",
+    "twitter-bot"
+  ],
+  "author": "Igor Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igormartins4/dolly-bobo/issues"
+  },
+  "homepage": "https://github.com/igormartins4/dolly-bobo#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "twit": "^2.2.11"
+  }
+}
