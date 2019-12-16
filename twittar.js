@@ -10,14 +10,14 @@ console.log('Dolly-Bobot Twittar está rodando...');
 function BotTweeta() {
   //chamando a função de tweetar que o Dolly é bobo
   twittada();
-  // chamando a função acima cada 20min (em microssegundos)
-  setInterval(twittada, 20*60*1000);
+  // chamando a função acima cada 30min (em microssegundos)
+  setInterval(twittada, 30*60*1000);
 
   function twittada() {
     // escolhendo um número aleatório entre 0 e 4444 para colocar no tweet
     let num = Math.floor(Math.random()*4444);
     let tweet = {
-      status: 'Bobot lembrando que o Dolly foi muito bobo pela ' + num + 'ª vez'
+      status: 'HO HO HO! Bobot especial de Natal lembrando que o Dolly foi muito bobo pela ' + num + 'ª vez. \n\nFELIZ NATAL!! '
     };
     // método que faz o tweet
     Bot.post('statuses/update', tweet, postaTweet);

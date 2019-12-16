@@ -1,5 +1,8 @@
 // AOOOOO DOLLY BOOOBOOOO
 
+// Igor Martins
+// https://github.com/igormartins4/dolly-bobo
+
 // carrega a biblioteca twit e as chaves
 let Twit = require('twit');
 let config = require('./config');
