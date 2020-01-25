@@ -1,5 +1,5 @@
 let Twit = require('twit');
-let config = require('./config');
+let config = require('../config');
 
 // passando as credenciais do config.js (arquivo secreto) para a api do twitter
 let Bot = new Twit(config);
@@ -17,7 +17,7 @@ function BotTweeta() {
     // escolhendo um número aleatório entre 0 e 4444 para colocar no tweet
     let num = Math.floor(Math.random()*4444);
     let tweet = {
-      status: 'HO HO HO! Bobot especial de Natal lembrando que o Dolly foi muito bobo pela ' + num + 'ª vez. \n\nFELIZ NATAL!! '
+      status: 'Dolly Bobot lembrando que o Dolly foi muito bobo pela ' + num + 'ª vez.'
     };
     // método que faz o tweet
     Bot.post('statuses/update', tweet, postaTweet);
