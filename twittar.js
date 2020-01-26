@@ -1,5 +1,5 @@
 let Twit = require('twit');
-let config = require('../config');
+let config = require('./config');
 
 // passando as credenciais do config.js (arquivo secreto) para a api do twitter
 let Bot = new Twit(config);

@@ -1,5 +1,5 @@
 const Twit = require('twit');
-const config = require('../config');
+const config = require('./config');
 
 const Bot = new Twit(config);
 
