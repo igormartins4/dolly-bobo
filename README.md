@@ -16,7 +16,7 @@ Um bot do twitter para lembrar que meu amigo [Dolly](https://github.com/Vinicius
 </p>
 
 ## Features
-Utilização de API do Github e artifícios de localização com a utilização de:
+Utilização de API do Twitter com a utilização de:
 
 - **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend.
 - **npm** — Um dos gerenciadores de pacotes para JavaScript.
@@ -42,7 +42,7 @@ npm install
 node index.js
 ```
 
-O bot estará funcionando. Ele vai começar a exibir mensagens no console durante o seu status de funcionamento.
+Para funcionar, o bot precisa de chaves de acesso que se encontram na parte de desenvolvimento do Twitter. Penso em escrever futuramente um artigo com todos os passos para criar e deixar funcionando o bot.
 
 ## Licença
 
