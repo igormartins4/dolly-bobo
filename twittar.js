@@ -1,8 +1,8 @@
 let Twit = require('twit');
-let config = require('./config');
+let keys = require('./keys');
 
-// passando as credenciais do config.js (arquivo secreto) para a api do twitter
-let Bot = new Twit(config);
+// passando as credenciais do keys.js (arquivo com as chaves) para a api do twitter
+let Bot = new Twit(keys);
 
 // teste para ver se está tudo ok
 console.log('Dolly-Bobot Twittar está rodando...');

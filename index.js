@@ -5,7 +5,7 @@
 
 // carrega a biblioteca twit e as chaves
 let Twit = require('twit');
-let config = require('./config');
+let keys = require('./keys');
 
 // teste para ver se está tudo ok
 console.log('Dolly-Bobot Geral está rodando...');

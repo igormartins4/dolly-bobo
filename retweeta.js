@@ -1,7 +1,7 @@
 const Twit = require('twit');
-const config = require('./config');
+const keys = require('./keys');
 
-const Bot = new Twit(config);
+const Bot = new Twit(keys);
 
 // teste para ver se está tudo ok
 console.log('Dolly-Bobot Retweeta rodando...');
