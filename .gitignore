@@ -1,3 +1,9 @@
-keys.js/
-Procfile/
+# dependencies
 node_modules/
+
+# tokens
+token.txt
+keys.js/
+
+# heroku
+Procfile/
