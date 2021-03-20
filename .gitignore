@@ -1,5 +1,9 @@
-keys.js
-Procfile
-package.json
-package-lock.json
+# dependencies
 node_modules/
+
+# tokens
+keys.js
+token.txt
+
+# heroku
+Procfile

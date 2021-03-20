@@ -46,4 +46,4 @@ Para funcionar, o bot precisa de chaves de acesso que se encontram na parte de d
 
 ## Licença
 
-Esse projeto é licensiado pela MIT License - Veja a página da [licença](https://opensource.org/licenses/MIT) para detalhes.
+Esse projeto é licenciado pela MIT License - Veja a página da [licença](https://opensource.org/licenses/MIT) para detalhes.
